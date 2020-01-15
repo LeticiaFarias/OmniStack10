@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.set('useCreateIndex', true);
+//mongoose.set('useCreateIndex', true);
 const PointSchema = require('./utils/PointSchema');
 
 const DevSchema = new mongoose.Schema({
