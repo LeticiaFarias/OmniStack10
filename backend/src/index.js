@@ -13,6 +13,7 @@ app.use(express.json());//precisa vir antes das rotas
 app.use(routes);
 
 
+app.listen(3333);
 
 //Métodos HTTP: GET, POST, PUT DELETE
 
@@ -22,6 +23,3 @@ app.use(routes);
 // Body: request.body (Dados para alteração, criação de um registro)
 
 //MongoDB (não-relacional)
-
-
-app.listen(3333);
